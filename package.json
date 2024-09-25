@@ -1,0 +1,20 @@
+{
+  "name": "online-borrow-service",
+  "version": "1.0.0",
+  "description": "<h1>Online Borrow Service</h1>\r <h3>Project Overview</h3>\r <p>This project is a way for me to demonstrate what I&#39;ve learned so far as a frontend developer.\r After completing the Codecool course, I started developing this project based on an idea that had inspired me earlier.</p>\r <h3>Purpose</h3>\r <p>The goal of this project is to show my growing skills in frontend development and my ability to create useful, user-friendly applications.</p>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "keywords": [],
+  "author": "Arpad Varga",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
